@@ -1,0 +1,15 @@
+{
+    "data_name": "vt3-1;Sa=450 MPa",
+    "# Distribution": "BS-Birnbaum-Saunders, IG-Inverse Gaussian, W-Weibull",
+    "distr_type": "W",
+    "# Bootstrap flag": "YES-confidence bounds with bootstrap, NO-approximate only",
+    "bootstrap": "YES",
+    "# Method": "analytical, numerical",
+    "estimation_method": "analytical",
+    "# Specified probabilities": "Range from 0.01-0.99",
+    "quantiles": [0.01, 0.05, 0.5, 0.95, 0.99],
+    "# Fatigue test results": "in cycles",
+    "data": [233883.72, 397191.55, 414954.04, 425598.41, 635330.93, 674528.03, 799834.26, 1196740.53, 2202926.46, 2786121.17, 4295364.27, 5888436.55, 12676518.66, 16255487.56, 17060823.89, 27605778.56, 28444611.07],
+    "# Censoring mask": "0-failure, 1-censoring",
+    "censored": [0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0]
+}

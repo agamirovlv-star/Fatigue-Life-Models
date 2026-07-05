@@ -1,0 +1,13 @@
+{
+    "data_name":"vt3-1; Sa=450 MPa",
+    "# Bootstrap flag": "YES - confidence intervals with bootstrap, NO - Kaplan-Meier only",
+    "bootstrap": "YES",
+    "# Threshold flag": "YES - calculation with threshold optimization, NO - fixed threshold",
+    "gamma_find": "YES",
+    "# Gamma threshold": "0 - calculation with zero threshold, 0-data[0] - fixed gamma specified below",
+    "gamma": 0.0,
+    "data": [233883.72, 397191.55, 414954.04, 425598.41, 635330.93, 674528.03, 799834.26, 1196740.53, 2202926.46, 2786121.17, 4295364.27, 5888436.55, 12676518.66, 16255487.56, 17060823.89, 27605778.56, 28444611.07],
+    "# Specified probabilities": "Range 0.01-0.99",
+    "quantiles": [0.01,0.05,0.5,0.95,0.99],
+    "censored": [0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0]
+}

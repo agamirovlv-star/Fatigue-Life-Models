@@ -1,0 +1,8 @@
+{
+    "# Criterion": "ks, cvm, ad, all for censored data; ks, cvm, ad, shapiro, all for complete data",
+    "test_type": "ad",
+    "# Simulations": "500-9999",
+    "n_bootstrap": 500,
+    "# SEED": "int",
+    "random_seed": 42
+}

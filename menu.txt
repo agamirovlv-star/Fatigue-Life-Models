@@ -1,0 +1,52 @@
+SUBMENU &Fatigue Curve Estimation
+      MENU fatigue_lm
+      MENU fatigue_mls_lm
+      MENU fatigue_trf
+ENDMENU
+
+SUBMENU &Fatigue Planning Optimizer
+      MENU fatigue_optimizer
+ENDMENU
+
+SUBMENU Fatigue Life Estimation
+   SUBMENU Analytical Estimation
+     SUBMENU Birnbaum_Saunders Distribution
+        MENU estimation_bs_anal
+     ENDMENU
+     SUBMENU Inverse Gauss Distribution
+        MENU estimation_ig_anal
+     ENDMENU
+     SUBMENU Weibull Distribution
+        MENU estimation_w
+     ENDMENU
+     SUBMENU Log Normal Distribution
+        MENU estimation_lognorm
+     ENDMENU
+  ENDMENU
+
+   SUBMENU Numerical Estimation
+     SUBMENU Birnbaum_Saunders Distribution
+        MENU estimation_bs_num
+     ENDMENU
+     SUBMENU Inverse Gauss Distribution
+        MENU estimation_ig_num
+     ENDMENU
+  ENDMENU
+ENDMENU
+
+
+SUBMENU Goodnes of Fit Fatigue Life Criterion
+    SUBMENU Censored Sample
+         MENU gof_test
+    ENDMENU
+    SUBMENU Full Sample
+      SUBMENU Mann Fertig Criterion
+        MENU mann_test
+      ENDMENU
+      SUBMENU Shapiri-Wilk Criterion
+        MENU shapiro_test
+      ENDMENU
+    ENDMENU
+ENDMENU
+
+

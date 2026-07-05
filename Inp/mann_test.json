@@ -1,0 +1,17 @@
+{
+    "# Distribution": "BS,Weibull,Normal",
+    "distr_type": "BS",
+    "# Criterion": "mann - Манн тест",
+    "test_type": "mann",
+    "# Simulations": "100000-1000000",
+    "n_sim": 100000,
+    "# Use MC": "TRUE -MC, FALSE - approximation",
+    "use_mc": true,
+    "# SEED": "int",
+    "random_seed": 42,
+    "# Use gamma": "true,false",
+    "use_gamma_estimated": false,
+    "# Fixed gamma": "gamma fixed in cycles",
+    "gamma_fixed": 0.0,
+    "data": [233883.72, 397191.55, 414954.04, 425598.41, 635330.93, 674528.03, 799834.26, 1196740.53, 2202926.46, 2786121.17, 4295364.27,                 5888436.55, 12676518.66, 16255487.56, 17060823.89, 27605778.56, 28444611.07]
+}

@@ -1,0 +1,18 @@
+{
+    "# Distribution": "BS-Birnbaum-Saunders,Normal-Normal",
+    "distr_type": "Normal",
+    "# Criterion": "shapiro",
+    "test_type": "shapiro",
+    "# Simulations": "100000-1000000",
+    "n_sim": 100000,
+    "# USE MC": "true-MC,false-approximation",
+    "use_mc": true,
+    "# SEED": "int",
+    "random_seed": 42,
+    "# Use gamma": "true,false",
+    "use_gamma_estimated": true,
+    "# FIXED gamma": "fixed-loc in cycles",
+    "gamma_fixed": 200000.0,
+    "alpha": 0.01,
+    "data": [233883.72, 397191.55, 414954.04, 425598.41, 635330.93, 674528.03, 799834.26, 1196740.53, 2202926.46, 2786121.17, 4295364.27,                 5888436.55, 12676518.66, 16255487.56, 17060823.89, 27605778.56, 28444611.07]
+}
